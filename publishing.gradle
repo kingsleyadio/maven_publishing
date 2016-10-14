@@ -25,6 +25,13 @@ ext {
         }
     }
 }
+
+local.properties
+----
+nexus.username
+nexus.password
+nexus.repository
+
 apply from: 'publishing.gradle'
 $ gradle uploadArchives
 */
